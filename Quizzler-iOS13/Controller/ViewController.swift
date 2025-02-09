@@ -48,7 +48,6 @@ class ViewController: UIViewController {
     }
     
     
-    //Functions
     //controller talking to view
     @objc func updateUI() {
         questionLabel.text = quiz_data.getQuestionText()
